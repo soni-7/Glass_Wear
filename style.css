@@ -1,0 +1,480 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.home-section {
+    background-image: url(images/hero-01.png);
+    background-color: rgb(234, 210, 214);
+    background-size: cover;
+    height: 820px;
+    width: 1510px;
+
+}
+
+.header ul {
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 2rem;
+    height: 2rem;
+    justify-content: space-between;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: rgb(137, 125, 125);
+    font-size: 1.2rem;
+}
+
+.header ul li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.hero-02 {
+    margin-left: 500px;
+    margin-top: 150px;
+    position: relative;
+    display: block;
+
+}
+
+.page-1-1 {
+    margin-top: -230px;
+    margin-left: 100px;
+}
+
+.page-1 h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-bottom: -10px;
+}
+
+.page-1 h1 {
+    font-size: 3rem;
+    margin-bottom: -9px;
+}
+
+.page-1 p {
+    color: gray;
+}
+
+.page-1 button {
+    background-color: rgb(234, 210, 214);
+    padding: 8px;
+    width: 130px;
+
+}
+
+.page-1 button:hover {
+    color: white;
+    background-color: black;
+}
+.home-section-2{
+    float: left;
+   
+    justify-content: space-between;
+}
+.page-2{
+    width: 33%;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+.page-2 h1{
+    font-size: 3rem;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.page-2 h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+   
+}
+
+.page-2 p {
+    color: gray;
+}
+
+.page-2 button {
+    background-color: white;
+    padding: 8px;
+    width: 130px;
+}
+.page-2 button:hover {
+    color: white;
+    background-color: black;
+}
+
+.page-3{
+    background-image: url(images/bg-01.jpg);
+    height: 700px;
+    float: left;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+}
+.page3-1{
+    margin-top: 250px;
+    margin-bottom:200px ;
+    margin-left: 100px;
+}
+.page3-1 h1{
+    font-size: 3rem;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.page3-1 h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+   
+}
+
+.page3-1 p {
+    color: gray;
+}
+
+.page3-1 button {
+    background-color: white;
+    padding: 8px;
+    width: 130px;
+}
+.page3-1 button:hover {
+    color: white;
+    background-color: black;
+}
+.page-4{
+    width: 30%;
+    height: 900px;
+}
+.page-4-1{
+    width: 70%;
+ margin-left: 900px;
+ margin-top: -700px;
+ 
+   
+}
+.page-4-1 p, A {
+    color: gray;
+}
+.page-4-1 button{
+    background-color: white;
+    padding: 8px;
+    width: 130px;
+}
+.page-4-1 button:hover{
+    background-color: black;
+    color: white;
+}
+.page-5{
+    height: 760px;
+    width: 100%;
+   margin-top: 1500px;
+   text-align: center;
+}
+.page-5 h1{
+    font-size: 65px;
+    margin-top: -5px;
+}
+.page-5 a{
+    color: grey;
+}
+.page-5 div{
+    font-size: 30px;
+    font-style: italic;
+    gap: 15px;
+}
+.page-5 button{
+    background-color: white;
+    padding: 8px;
+    width: 130px;
+}
+.page-5 button:hover{
+    background-color: black;
+    color: white;
+}
+.page-6-1{
+    margin-left: 50px;
+}
+.page-6-1 h6{
+    font-size: 25px;
+}
+.page-6-1 h1{
+    font-size: 45px;
+}
+.page-6-1 p{
+    font-size: 20px;
+}
+.page-6-1 button{
+    background-color: white;
+    padding: 8px;
+    width: 130px;
+}
+.page-6-1 button:hover{
+    background-color: black;
+    color: white;
+}
+.page-7{
+    height: 750px;
+    text-align: center;
+    margin-top: 150px;
+}
+.page-7 .product9 a{
+    color: gray;
+}
+.page-7 .product10 a{
+    color: gray;
+}
+.page-7 .product11 a{
+    color: gray;
+}
+.product9{
+  margin-left: 65px;
+    float: left;
+    
+}
+
+.product11{
+   margin-right: 510px;
+}
+.product10{
+    margin-top: -555px;
+    margin-left: 940px;
+}
+.page-8{
+    height: 250px;
+}
+.page-8 .discount p{
+    color: gray;
+}
+.discount{
+    margin-left: 200px;
+}
+.page-8 .shipping p{
+    color: gray;
+}
+.shipping{
+    margin-left: 600px;
+    margin-top: -190px;
+  
+   
+}
+.page-8 .payment p{
+    color: rgb(99, 53, 53);
+}
+.payment{
+    margin-top: -192px;
+    margin-left: 1000px;
+  
+   
+}
+
+.footer{
+    background-color: rgb(184, 184, 184);
+    height: 300px;
+}
+
+.footer .footer-about{
+    margin-left:200px;
+    margin-top: -30px;
+  
+}
+.footer .footer-about a{
+    text-decoration: none;
+    color: black;
+}
+.footer .footer-links{
+    margin-left: 500px;
+    margin-top: -120px;
+}
+.footer .footer-links a{
+    text-decoration: none;
+    color: black;
+}
+.footer .footer-contact{
+    margin-left:900px ;
+    margin-top: -115px;
+}
+.copyright{
+    background-color: rgb(184, 184, 184);
+    height: 50px;
+    text-align: center;
+}
+.copyright .icons{
+    float: right;
+    margin-right: 150px;
+    
+}
+
+
+/* WOmen section */
+.women{
+    margin-left: 90px;
+    display: grid;
+}
+.women a{
+    text-decoration: none;
+    color: black;
+}
+.women h1{
+    font-size: 55px;
+}
+.women .product1{
+    margin-left: 160px;
+}
+.women .product-11{
+    margin-left: 585px;
+    margin-top: -419px;
+}
+.women .product5{
+    margin-top:-420px ;
+    margin-left:999px ;
+}
+.women .product6{
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.women .product7{
+    margin-left: 585px;
+    margin-top: -419px;
+}
+.women .product8{
+    margin-top: -419px;
+    margin-left: 999px;
+    
+}
+.women .product-9{
+    margin-left: 160px;
+}
+#items{
+    float: right;
+    margin-right: 100px;
+    width: 160px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+/* Men section */
+.Men{
+    margin-left: 90px;
+    display: grid;
+}
+.Men a{
+    text-decoration: none;
+    color: black;
+}
+.Men h1{
+    font-size: 55px;
+}
+.Men .product-10{
+    margin-left: 160px;
+}
+.Men .product12{
+    margin-left: 585px;
+    margin-top: -420px;
+}
+.Men .product2{
+    margin-left: 999px;
+    margin-top: -420px;
+
+}
+.Men .product3{
+    margin-left:160px ;
+    margin-top: 50px;
+}
+.Men .product-7{
+    margin-left: 585px;
+    margin-top: -420px;
+}
+
+
+.Aboutpg1{
+    background-image: url(images/bg-06.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 620PX;
+    margin-top: -200PX;
+    text-align: center;
+}
+.Aboutpg1  b{
+    font-size: 85px;
+text-align: center;
+margin-left: 100px;
+margin-top: 300px;
+}
+
+.Aboutpg2{
+    margin-left: 250px;
+    margin-top: 180px;
+    margin-bottom: 150px;
+}
+.Aboutpg2-1 h3{
+margin-bottom: -75spx;
+}
+.Aboutpg2-1 h1{
+font-size: 80px;
+margin-top: -10px;
+}
+.Aboutpg2-2{
+    color: gray;
+    margin-left: 450px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+.Aboutpg3{
+    background-image: url(images/bg-07.jpg);
+    height: 600px;
+    width: 100%;
+}
+.Aboutpg4{
+    margin-left: 200px;
+    margin-top: 200px;
+   height: 680px;
+
+}
+
+.Aboutpg4-1{
+    background-image: url(images/about-03.jpg);
+    width: 550px;
+    height: 500px;
+}
+.Aboutpg4 h1{
+    margin-top: -650px;
+    font-size: 85px;
+    
+}
+.Aboutpg4-2{
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.Aboutpg4-2 h4{
+    font-size: 15px;
+}
+.Aboutpg4-2 p{
+    color: gray;
+}
+
+.Contactpg{
+    background-image: url(images/bg-05.jpeg);
+    height: 500px;
+    width: 100%;
+    margin-top: -50px;
+    background-size: cover;
+    text-align: center;
+}
+.Contactpg b{
+    font-size: 85px;
+    text-align: center;
+    /* margin-left: 100px; */
+ 
+}
